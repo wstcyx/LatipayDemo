@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12D5EFAA1F66C30000A3301B /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 12D5EFA71F66C30000A3301B /* AlipaySDK.bundle */; };
+		12D5EFAB1F66C30000A3301B /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFA81F66C30000A3301B /* AlipaySDK.framework */; };
+		12D5EFAC1F66C30000A3301B /* LatipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFA91F66C30000A3301B /* LatipaySDK.framework */; };
+		12D5EFAF1F66C3F100A3301B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFAD1F66C3F100A3301B /* libcrypto.a */; };
+		12D5EFB01F66C3F100A3301B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFAE1F66C3F100A3301B /* libssl.a */; };
+		12D5EFB31F66C42400A3301B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFB21F66C42400A3301B /* CoreTelephony.framework */; };
+		12D5EFB51F66C42B00A3301B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFB41F66C42B00A3301B /* CoreMotion.framework */; };
+		12D5EFB71F66C44500A3301B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFB61F66C44500A3301B /* libc++.tbd */; };
+		12D5EFB91F66C44B00A3301B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFB81F66C44B00A3301B /* libz.tbd */; };
+		12D5EFBB1F66C45200A3301B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFBA1F66C45200A3301B /* SystemConfiguration.framework */; };
+		12D5EFBD1F66C45A00A3301B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFBC1F66C45A00A3301B /* QuartzCore.framework */; };
+		12D5EFBF1F66C46000A3301B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFBE1F66C46000A3301B /* CoreText.framework */; };
+		12D5EFC11F66C46700A3301B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFC01F66C46700A3301B /* CoreGraphics.framework */; };
+		12D5EFC31F66C46E00A3301B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFC21F66C46E00A3301B /* UIKit.framework */; };
+		12D5EFC51F66C47500A3301B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFC41F66C47500A3301B /* Foundation.framework */; };
+		12D5EFC71F66C47E00A3301B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFC61F66C47E00A3301B /* CFNetwork.framework */; };
+		12D6628A1F61368900009F48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D662891F61368900009F48 /* main.m */; };
+		12D6628D1F61368900009F48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D6628C1F61368900009F48 /* AppDelegate.m */; };
+		12D662901F61368900009F48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D6628F1F61368900009F48 /* ViewController.m */; };
+		12D662931F61368900009F48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D662911F61368900009F48 /* Main.storyboard */; };
+		12D662951F61368900009F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D662941F61368900009F48 /* Assets.xcassets */; };
+		12D662981F61368900009F48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D662961F61368900009F48 /* LaunchScreen.storyboard */; };
+		12D662A31F61368900009F48 /* LatipayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D662A21F61368900009F48 /* LatipayDemoTests.m */; };
+		12D662AE1F61368900009F48 /* LatipayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D662AD1F61368900009F48 /* LatipayDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12D6629F1F61368900009F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D6627D1F61368900009F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12D662841F61368900009F48;
+			remoteInfo = LatipayDemo;
+		};
+		12D662AA1F61368900009F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D6627D1F61368900009F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12D662841F61368900009F48;
+			remoteInfo = LatipayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12D5EFA71F66C30000A3301B /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		12D5EFA81F66C30000A3301B /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		12D5EFA91F66C30000A3301B /* LatipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LatipaySDK.framework; sourceTree = "<group>"; };
+		12D5EFAD1F66C3F100A3301B /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		12D5EFAE1F66C3F100A3301B /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		12D5EFB21F66C42400A3301B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		12D5EFB41F66C42B00A3301B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		12D5EFB61F66C44500A3301B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		12D5EFB81F66C44B00A3301B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		12D5EFBA1F66C45200A3301B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		12D5EFBC1F66C45A00A3301B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		12D5EFBE1F66C46000A3301B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		12D5EFC01F66C46700A3301B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		12D5EFC21F66C46E00A3301B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12D5EFC41F66C47500A3301B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12D5EFC61F66C47E00A3301B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		12D662851F61368900009F48 /* LatipayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatipayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D662891F61368900009F48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12D6628B1F61368900009F48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12D6628C1F61368900009F48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12D6628E1F61368900009F48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12D6628F1F61368900009F48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12D662921F61368900009F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12D662941F61368900009F48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12D662971F61368900009F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12D662991F61368900009F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D6629E1F61368900009F48 /* LatipayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatipayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D662A21F61368900009F48 /* LatipayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LatipayDemoTests.m; sourceTree = "<group>"; };
+		12D662A41F61368900009F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D662A91F61368900009F48 /* LatipayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatipayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D662AD1F61368900009F48 /* LatipayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LatipayDemoUITests.m; sourceTree = "<group>"; };
+		12D662AF1F61368900009F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12D662821F61368900009F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D5EFC71F66C47E00A3301B /* CFNetwork.framework in Frameworks */,
+				12D5EFC51F66C47500A3301B /* Foundation.framework in Frameworks */,
+				12D5EFC31F66C46E00A3301B /* UIKit.framework in Frameworks */,
+				12D5EFC11F66C46700A3301B /* CoreGraphics.framework in Frameworks */,
+				12D5EFBF1F66C46000A3301B /* CoreText.framework in Frameworks */,
+				12D5EFBD1F66C45A00A3301B /* QuartzCore.framework in Frameworks */,
+				12D5EFBB1F66C45200A3301B /* SystemConfiguration.framework in Frameworks */,
+				12D5EFB91F66C44B00A3301B /* libz.tbd in Frameworks */,
+				12D5EFB71F66C44500A3301B /* libc++.tbd in Frameworks */,
+				12D5EFB51F66C42B00A3301B /* CoreMotion.framework in Frameworks */,
+				12D5EFB31F66C42400A3301B /* CoreTelephony.framework in Frameworks */,
+				12D5EFB01F66C3F100A3301B /* libssl.a in Frameworks */,
+				12D5EFAC1F66C30000A3301B /* LatipaySDK.framework in Frameworks */,
+				12D5EFAB1F66C30000A3301B /* AlipaySDK.framework in Frameworks */,
+				12D5EFAF1F66C3F100A3301B /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D6629B1F61368900009F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D662A61F61368900009F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12D5EFA51F66C30000A3301B /* LatipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				12D5EFA61F66C30000A3301B /* AlipaySDK */,
+				12D5EFA91F66C30000A3301B /* LatipaySDK.framework */,
+			);
+			path = LatipaySDK;
+			sourceTree = "<group>";
+		};
+		12D5EFA61F66C30000A3301B /* AlipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				12D5EFAD1F66C3F100A3301B /* libcrypto.a */,
+				12D5EFAE1F66C3F100A3301B /* libssl.a */,
+				12D5EFA71F66C30000A3301B /* AlipaySDK.bundle */,
+				12D5EFA81F66C30000A3301B /* AlipaySDK.framework */,
+			);
+			path = AlipaySDK;
+			sourceTree = "<group>";
+		};
+		12D5EFB11F66C42400A3301B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12D5EFC61F66C47E00A3301B /* CFNetwork.framework */,
+				12D5EFC41F66C47500A3301B /* Foundation.framework */,
+				12D5EFC21F66C46E00A3301B /* UIKit.framework */,
+				12D5EFC01F66C46700A3301B /* CoreGraphics.framework */,
+				12D5EFBE1F66C46000A3301B /* CoreText.framework */,
+				12D5EFBC1F66C45A00A3301B /* QuartzCore.framework */,
+				12D5EFBA1F66C45200A3301B /* SystemConfiguration.framework */,
+				12D5EFB81F66C44B00A3301B /* libz.tbd */,
+				12D5EFB61F66C44500A3301B /* libc++.tbd */,
+				12D5EFB41F66C42B00A3301B /* CoreMotion.framework */,
+				12D5EFB21F66C42400A3301B /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12D6627C1F61368900009F48 = {
+			isa = PBXGroup;
+			children = (
+				12D662871F61368900009F48 /* LatipayDemo */,
+				12D662A11F61368900009F48 /* LatipayDemoTests */,
+				12D662AC1F61368900009F48 /* LatipayDemoUITests */,
+				12D662861F61368900009F48 /* Products */,
+				12D5EFB11F66C42400A3301B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12D662861F61368900009F48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12D662851F61368900009F48 /* LatipayDemo.app */,
+				12D6629E1F61368900009F48 /* LatipayDemoTests.xctest */,
+				12D662A91F61368900009F48 /* LatipayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12D662871F61368900009F48 /* LatipayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				12D5EFA51F66C30000A3301B /* LatipaySDK */,
+				12D6628B1F61368900009F48 /* AppDelegate.h */,
+				12D6628C1F61368900009F48 /* AppDelegate.m */,
+				12D6628E1F61368900009F48 /* ViewController.h */,
+				12D6628F1F61368900009F48 /* ViewController.m */,
+				12D662911F61368900009F48 /* Main.storyboard */,
+				12D662941F61368900009F48 /* Assets.xcassets */,
+				12D662961F61368900009F48 /* LaunchScreen.storyboard */,
+				12D662991F61368900009F48 /* Info.plist */,
+				12D662881F61368900009F48 /* Supporting Files */,
+			);
+			path = LatipayDemo;
+			sourceTree = "<group>";
+		};
+		12D662881F61368900009F48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12D662891F61368900009F48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12D662A11F61368900009F48 /* LatipayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				12D662A21F61368900009F48 /* LatipayDemoTests.m */,
+				12D662A41F61368900009F48 /* Info.plist */,
+			);
+			path = LatipayDemoTests;
+			sourceTree = "<group>";
+		};
+		12D662AC1F61368900009F48 /* LatipayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12D662AD1F61368900009F48 /* LatipayDemoUITests.m */,
+				12D662AF1F61368900009F48 /* Info.plist */,
+			);
+			path = LatipayDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12D662841F61368900009F48 /* LatipayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D662B21F61368900009F48 /* Build configuration list for PBXNativeTarget "LatipayDemo" */;
+			buildPhases = (
+				12D662811F61368900009F48 /* Sources */,
+				12D662821F61368900009F48 /* Frameworks */,
+				12D662831F61368900009F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LatipayDemo;
+			productName = LatipayDemo;
+			productReference = 12D662851F61368900009F48 /* LatipayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12D6629D1F61368900009F48 /* LatipayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D662B51F61368900009F48 /* Build configuration list for PBXNativeTarget "LatipayDemoTests" */;
+			buildPhases = (
+				12D6629A1F61368900009F48 /* Sources */,
+				12D6629B1F61368900009F48 /* Frameworks */,
+				12D6629C1F61368900009F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12D662A01F61368900009F48 /* PBXTargetDependency */,
+			);
+			name = LatipayDemoTests;
+			productName = LatipayDemoTests;
+			productReference = 12D6629E1F61368900009F48 /* LatipayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12D662A81F61368900009F48 /* LatipayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D662B81F61368900009F48 /* Build configuration list for PBXNativeTarget "LatipayDemoUITests" */;
+			buildPhases = (
+				12D662A51F61368900009F48 /* Sources */,
+				12D662A61F61368900009F48 /* Frameworks */,
+				12D662A71F61368900009F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12D662AB1F61368900009F48 /* PBXTargetDependency */,
+			);
+			name = LatipayDemoUITests;
+			productName = LatipayDemoUITests;
+			productReference = 12D662A91F61368900009F48 /* LatipayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12D6627D1F61368900009F48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = yx;
+				TargetAttributes = {
+					12D662841F61368900009F48 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+					12D6629D1F61368900009F48 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12D662841F61368900009F48;
+					};
+					12D662A81F61368900009F48 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12D662841F61368900009F48;
+					};
+				};
+			};
+			buildConfigurationList = 12D662801F61368900009F48 /* Build configuration list for PBXProject "LatipayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12D6627C1F61368900009F48;
+			productRefGroup = 12D662861F61368900009F48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12D662841F61368900009F48 /* LatipayDemo */,
+				12D6629D1F61368900009F48 /* LatipayDemoTests */,
+				12D662A81F61368900009F48 /* LatipayDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12D662831F61368900009F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D662981F61368900009F48 /* LaunchScreen.storyboard in Resources */,
+				12D662951F61368900009F48 /* Assets.xcassets in Resources */,
+				12D5EFAA1F66C30000A3301B /* AlipaySDK.bundle in Resources */,
+				12D662931F61368900009F48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D6629C1F61368900009F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D662A71F61368900009F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12D662811F61368900009F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D662901F61368900009F48 /* ViewController.m in Sources */,
+				12D6628D1F61368900009F48 /* AppDelegate.m in Sources */,
+				12D6628A1F61368900009F48 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D6629A1F61368900009F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D662A31F61368900009F48 /* LatipayDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D662A51F61368900009F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D662AE1F61368900009F48 /* LatipayDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12D662A01F61368900009F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12D662841F61368900009F48 /* LatipayDemo */;
+			targetProxy = 12D6629F1F61368900009F48 /* PBXContainerItemProxy */;
+		};
+		12D662AB1F61368900009F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12D662841F61368900009F48 /* LatipayDemo */;
+			targetProxy = 12D662AA1F61368900009F48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12D662911F61368900009F48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12D662921F61368900009F48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12D662961F61368900009F48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12D662971F61368900009F48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12D662B01F61368900009F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12D662B11F61368900009F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12D662B31F61368900009F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LatipayDemo/LatipaySDK/AlipaySDK",
+					"$(PROJECT_DIR)/LatipayDemo/LatipaySDK",
+				);
+				INFOPLIST_FILE = LatipayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LatipayDemo/LatipaySDK/AlipaySDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.latipaysdkdemo.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12D662B41F61368900009F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LatipayDemo/LatipaySDK/AlipaySDK",
+					"$(PROJECT_DIR)/LatipayDemo/LatipaySDK",
+				);
+				INFOPLIST_FILE = LatipayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LatipayDemo/LatipaySDK/AlipaySDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.latipaysdkdemo.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12D662B61F61368900009F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LatipayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yx.LatipayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LatipayDemo.app/LatipayDemo";
+			};
+			name = Debug;
+		};
+		12D662B71F61368900009F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LatipayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yx.LatipayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LatipayDemo.app/LatipayDemo";
+			};
+			name = Release;
+		};
+		12D662B91F61368900009F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LatipayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yx.LatipayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LatipayDemo;
+			};
+			name = Debug;
+		};
+		12D662BA1F61368900009F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LatipayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yx.LatipayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LatipayDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12D662801F61368900009F48 /* Build configuration list for PBXProject "LatipayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D662B01F61368900009F48 /* Debug */,
+				12D662B11F61368900009F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12D662B21F61368900009F48 /* Build configuration list for PBXNativeTarget "LatipayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D662B31F61368900009F48 /* Debug */,
+				12D662B41F61368900009F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12D662B51F61368900009F48 /* Build configuration list for PBXNativeTarget "LatipayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D662B61F61368900009F48 /* Debug */,
+				12D662B71F61368900009F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12D662B81F61368900009F48 /* Build configuration list for PBXNativeTarget "LatipayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D662B91F61368900009F48 /* Debug */,
+				12D662BA1F61368900009F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12D6627D1F61368900009F48 /* Project object */;
+}
