@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12B9B2B51F8B6349002B4CE3 /* AlipayDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B9B2B41F8B6349002B4CE3 /* AlipayDetailController.m */; };
+		12B9B2BC1F8B6892002B4CE3 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B9B2B81F8B6892002B4CE3 /* SVIndefiniteAnimatedView.m */; };
+		12B9B2BD1F8B6892002B4CE3 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 12B9B2B91F8B6892002B4CE3 /* SVProgressHUD.bundle */; };
+		12B9B2BE1F8B6892002B4CE3 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B9B2BB1F8B6892002B4CE3 /* SVProgressHUD.m */; };
 		12D5EFAA1F66C30000A3301B /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 12D5EFA71F66C30000A3301B /* AlipaySDK.bundle */; };
 		12D5EFAB1F66C30000A3301B /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFA81F66C30000A3301B /* AlipaySDK.framework */; };
 		12D5EFAC1F66C30000A3301B /* LatipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D5EFA91F66C30000A3301B /* LatipaySDK.framework */; };
@@ -51,6 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12B9B2B31F8B6349002B4CE3 /* AlipayDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlipayDetailController.h; path = LatipaySDK/AlipayDetailController.h; sourceTree = "<group>"; };
+		12B9B2B41F8B6349002B4CE3 /* AlipayDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlipayDetailController.m; path = LatipaySDK/AlipayDetailController.m; sourceTree = "<group>"; };
+		12B9B2B71F8B6892002B4CE3 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		12B9B2B81F8B6892002B4CE3 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		12B9B2B91F8B6892002B4CE3 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		12B9B2BA1F8B6892002B4CE3 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		12B9B2BB1F8B6892002B4CE3 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		12D5EFA71F66C30000A3301B /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		12D5EFA81F66C30000A3301B /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		12D5EFA91F66C30000A3301B /* LatipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LatipaySDK.framework; sourceTree = "<group>"; };
@@ -125,6 +136,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12B9B2B61F8B6892002B4CE3 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				12B9B2B71F8B6892002B4CE3 /* SVIndefiniteAnimatedView.h */,
+				12B9B2B81F8B6892002B4CE3 /* SVIndefiniteAnimatedView.m */,
+				12B9B2B91F8B6892002B4CE3 /* SVProgressHUD.bundle */,
+				12B9B2BA1F8B6892002B4CE3 /* SVProgressHUD.h */,
+				12B9B2BB1F8B6892002B4CE3 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		12D5EFA51F66C30000A3301B /* LatipaySDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,9 +210,12 @@
 		12D662871F61368900009F48 /* LatipayDemo */ = {
 			isa = PBXGroup;
 			children = (
+				12B9B2B61F8B6892002B4CE3 /* SVProgressHUD */,
 				12D5EFA51F66C30000A3301B /* LatipaySDK */,
 				12D6628B1F61368900009F48 /* AppDelegate.h */,
 				12D6628C1F61368900009F48 /* AppDelegate.m */,
+				12B9B2B31F8B6349002B4CE3 /* AlipayDetailController.h */,
+				12B9B2B41F8B6349002B4CE3 /* AlipayDetailController.m */,
 				12D6628E1F61368900009F48 /* ViewController.h */,
 				12D6628F1F61368900009F48 /* ViewController.m */,
 				12D662911F61368900009F48 /* Main.storyboard */,
@@ -333,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B9B2BD1F8B6892002B4CE3 /* SVProgressHUD.bundle in Resources */,
 				12D662981F61368900009F48 /* LaunchScreen.storyboard in Resources */,
 				12D662951F61368900009F48 /* Assets.xcassets in Resources */,
 				12D5EFAA1F66C30000A3301B /* AlipaySDK.bundle in Resources */,
@@ -361,9 +388,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B9B2BC1F8B6892002B4CE3 /* SVIndefiniteAnimatedView.m in Sources */,
 				12D662901F61368900009F48 /* ViewController.m in Sources */,
 				12D6628D1F61368900009F48 /* AppDelegate.m in Sources */,
+				12B9B2B51F8B6349002B4CE3 /* AlipayDetailController.m in Sources */,
 				12D6628A1F61368900009F48 /* main.m in Sources */,
+				12B9B2BE1F8B6892002B4CE3 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
